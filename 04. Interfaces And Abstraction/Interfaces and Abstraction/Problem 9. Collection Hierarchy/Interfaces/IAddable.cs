@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Problem_9._Collection_Hierarchy.Interfaces
+﻿namespace Problem_9._Collection_Hierarchy.Interfaces
 {
-    interface IAddable
+    public interface IAddable
     {
+        void Add(string element);
     }
 }

@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 1. Person", "Problem 1. Person\Problem 1. Person.csproj", "{C4A53648-DC00-40F9-AB9B-B59D33068E21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 1. Person", "Problem 1. Person\Problem 1. Person.csproj", "{C4A53648-DC00-40F9-AB9B-B59D33068E21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3. Players and Monsters", "Problem 3. Players and Monsters\Problem 3. Players and Monsters.csproj", "{977698D2-EEEB-4DF1-BD68-7B6DF769F4FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 3. Players and Monsters", "Problem 3. Players and Monsters\Problem 3. Players and Monsters.csproj", "{977698D2-EEEB-4DF1-BD68-7B6DF769F4FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 6. Animals", "Problem 6. Animals\Problem 6. Animals.csproj", "{C26269BF-A297-4199-A22A-5957209CD0DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 6. Animals", "Problem 6. Animals\Problem 6. Animals.csproj", "{C26269BF-A297-4199-A22A-5957209CD0DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5. Restaurant", "Problem 5. Restaurant\Problem 5. Restaurant.csproj", "{EF4B86F2-BD0B-49A2-948B-4838A6A18493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 5. Restaurant", "Problem 5. Restaurant\Problem 5. Restaurant.csproj", "{EF4B86F2-BD0B-49A2-948B-4838A6A18493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. SingleInheritance", "01. SingleInheritance\01. SingleInheritance.csproj", "{D434181D-CF70-4550-ADD4-CEC66575FB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. MultiplyInheritance", "02. MultiplyInheritance\02. MultiplyInheritance.csproj", "{03CFA69E-6263-4ECC-9AD0-F520834124AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. HierarchicalInheritance", "03. HierarchicalInheritance\03. HierarchicalInheritance.csproj", "{4DB2E649-42A0-4792-B4A3-89D437857279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. RandomList", "04. RandomList\04. RandomList.csproj", "{D99CD4E5-F105-4665-9FBB-F4AFF70F2CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. StackOfStrings", "05. StackOfStrings\05. StackOfStrings.csproj", "{D84B84C5-D664-4C3E-B60A-70939BB0878C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{EF4B86F2-BD0B-49A2-948B-4838A6A18493}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF4B86F2-BD0B-49A2-948B-4838A6A18493}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF4B86F2-BD0B-49A2-948B-4838A6A18493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D434181D-CF70-4550-ADD4-CEC66575FB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D434181D-CF70-4550-ADD4-CEC66575FB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D434181D-CF70-4550-ADD4-CEC66575FB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D434181D-CF70-4550-ADD4-CEC66575FB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CFA69E-6263-4ECC-9AD0-F520834124AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CFA69E-6263-4ECC-9AD0-F520834124AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CFA69E-6263-4ECC-9AD0-F520834124AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CFA69E-6263-4ECC-9AD0-F520834124AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB2E649-42A0-4792-B4A3-89D437857279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB2E649-42A0-4792-B4A3-89D437857279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB2E649-42A0-4792-B4A3-89D437857279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB2E649-42A0-4792-B4A3-89D437857279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99CD4E5-F105-4665-9FBB-F4AFF70F2CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99CD4E5-F105-4665-9FBB-F4AFF70F2CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99CD4E5-F105-4665-9FBB-F4AFF70F2CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99CD4E5-F105-4665-9FBB-F4AFF70F2CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84B84C5-D664-4C3E-B60A-70939BB0878C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84B84C5-D664-4C3E-B60A-70939BB0878C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84B84C5-D664-4C3E-B60A-70939BB0878C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84B84C5-D664-4C3E-B60A-70939BB0878C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

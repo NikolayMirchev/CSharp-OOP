@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Problem_9._Collection_Hierarchy.Interfaces
+﻿namespace Problem_9._Collection_Hierarchy.Interfaces
 {
-    interface IRemovable
+    public interface IRemovable : IAddable
     {
+        void Remove();
+
+        void GetRemovedElements();
     }
 }
