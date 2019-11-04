@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Problem_6._Birthday_Celebrations
 {
-    class Program
+    public class Program
     {
         public static void Main()
         {
