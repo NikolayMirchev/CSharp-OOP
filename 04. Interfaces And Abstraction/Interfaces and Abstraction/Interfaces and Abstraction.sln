@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3. Ferrari", "Problem 3. Ferrari\Problem 3. Ferrari.csproj", "{F8891620-763C-4728-B4C0-A28D42F80DA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 3. Ferrari", "Problem 3. Ferrari\Problem 3. Ferrari.csproj", "{F8891620-763C-4728-B4C0-A28D42F80DA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4. Telephony", "Problem 4. Telephony\Problem 4. Telephony.csproj", "{7813AE07-6378-4CB5-87B0-E1656A7F17BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 4. Telephony", "Problem 4. Telephony\Problem 4. Telephony.csproj", "{7813AE07-6378-4CB5-87B0-E1656A7F17BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5. Border Control", "Problem 5. Border Control\Problem 5. Border Control.csproj", "{F35838C2-7E58-4F82-BC12-BA943A35C2C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 5. Border Control", "Problem 5. Border Control\Problem 5. Border Control.csproj", "{F35838C2-7E58-4F82-BC12-BA943A35C2C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 7. Food Shortage", "Problem 7. Food Shortage\Problem 7. Food Shortage.csproj", "{7E04D5D3-B0F6-4BF1-BB67-4E9C13ECC720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 7. Food Shortage", "Problem 7. Food Shortage\Problem 7. Food Shortage.csproj", "{7E04D5D3-B0F6-4BF1-BB67-4E9C13ECC720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Shapes", "Shapes\01. Shapes.csproj", "{07E2FF62-CEA0-4515-ADAE-3076FAF69460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Cars", "02. Cars\02. Cars.csproj", "{427F57E2-1AF4-4421-9325-8BA9E52DE4CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{7E04D5D3-B0F6-4BF1-BB67-4E9C13ECC720}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E04D5D3-B0F6-4BF1-BB67-4E9C13ECC720}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E04D5D3-B0F6-4BF1-BB67-4E9C13ECC720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E2FF62-CEA0-4515-ADAE-3076FAF69460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E2FF62-CEA0-4515-ADAE-3076FAF69460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E2FF62-CEA0-4515-ADAE-3076FAF69460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E2FF62-CEA0-4515-ADAE-3076FAF69460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427F57E2-1AF4-4421-9325-8BA9E52DE4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427F57E2-1AF4-4421-9325-8BA9E52DE4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427F57E2-1AF4-4421-9325-8BA9E52DE4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427F57E2-1AF4-4421-9325-8BA9E52DE4CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
