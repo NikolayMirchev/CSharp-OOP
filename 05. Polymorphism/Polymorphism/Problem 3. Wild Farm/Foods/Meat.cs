@@ -1,4 +1,4 @@
-﻿namespace Problem_3._Wild_Farm.Food
+﻿namespace Problem_3._Wild_Farm.Foods
 {
     public class Meat : Food
     {

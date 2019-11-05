@@ -1,7 +1,5 @@
-﻿using Problem_3._Wild_Farm.Validations;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Problem_3._Wild_Farm.Foods;
+using Problem_3._Wild_Farm.Validations;
 
 namespace Problem_3._Wild_Farm.Animals.Mammals.Felines
 {

@@ -1,4 +1,4 @@
-﻿using Problem_3._Wild_Farm.Food;
+﻿using Problem_3._Wild_Farm.Foods;
 using System;
 using System.Collections.Generic;
 using System.Text;
