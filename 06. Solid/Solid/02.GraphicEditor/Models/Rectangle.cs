@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using _02.GraphicEditor.Models.Interfaces;
+using System;
 
 namespace _02.GraphicEditor.Models
 {
-    class Rectangle
+    public class Rectangle : IShape
     {
+        public void Draw()
+        {
+            Console.WriteLine($"I'm {this.GetType().Name}");
+        }
     }
 }

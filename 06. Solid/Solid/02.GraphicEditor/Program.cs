@@ -1,4 +1,4 @@
-﻿using System;
+﻿using _02.GraphicEditor.Models;
 
 namespace _02.GraphicEditor
 {
@@ -6,7 +6,11 @@ namespace _02.GraphicEditor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GraphicEditor graphicEditor = new GraphicEditor();
+            graphicEditor.DrawShape(new Circle());
+            graphicEditor.DrawShape(new Square());
+            graphicEditor.DrawShape(new Rectangle());
+
         }
     }
 }

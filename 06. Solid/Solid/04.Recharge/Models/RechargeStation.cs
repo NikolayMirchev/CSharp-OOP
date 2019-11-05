@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using _04.Recharge.Models.Interfaces;
 
 namespace _04.Recharge.Models
 {
-    class RechargeStation
+    public class RechargeStation
     {
+        public void Recharge(IRechargeable rechargeable)
+        {
+            rechargeable.Recharge();
+        }
     }
 }

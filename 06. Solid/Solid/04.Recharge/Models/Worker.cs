@@ -1,10 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _04.Recharge.Models
+﻿namespace _04.Recharge.Models
 {
-    class Worker
+    public abstract class Worker
     {
+        private string id;
+        private int workingHours;
+
+        protected Worker(string id)
+        {
+            this.id = id;
+        }
+
+        public virtual void Work(int hours)
+        {
+            this.workingHours += hours;
+        }
     }
 }

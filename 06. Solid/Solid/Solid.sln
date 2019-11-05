@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.StreamProgressInfo", "01.StreamProgressInfo\01.StreamProgressInfo.csproj", "{2FCBD703-0A05-4E78-8B1D-D3466C6167C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.StreamProgressInfo", "01.StreamProgressInfo\01.StreamProgressInfo.csproj", "{2FCBD703-0A05-4E78-8B1D-D3466C6167C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GraphicEditor", "02.GraphicEditor\02.GraphicEditor.csproj", "{8A6A8FDE-EB28-4558-8413-CAD1CF480E08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.GraphicEditor", "02.GraphicEditor\02.GraphicEditor.csproj", "{8A6A8FDE-EB28-4558-8413-CAD1CF480E08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DetailPrinter", "03.DetailPrinter\03.DetailPrinter.csproj", "{8BE69A9D-A326-42D3-A90D-DE6D917E2AC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.DetailPrinter", "03.DetailPrinter\03.DetailPrinter.csproj", "{8BE69A9D-A326-42D3-A90D-DE6D917E2AC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Recharge", "04.Recharge\04.Recharge.csproj", "{2895A486-282F-43DA-9F00-CED2015FBC44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Recharge", "04.Recharge\04.Recharge.csproj", "{2895A486-282F-43DA-9F00-CED2015FBC44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 01.Logger", "Problem 01.Logger\Problem 01.Logger.csproj", "{2EB017A8-EF27-4FDA-B611-A0743B5076BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2895A486-282F-43DA-9F00-CED2015FBC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2895A486-282F-43DA-9F00-CED2015FBC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2895A486-282F-43DA-9F00-CED2015FBC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB017A8-EF27-4FDA-B611-A0743B5076BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB017A8-EF27-4FDA-B611-A0743B5076BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB017A8-EF27-4FDA-B611-A0743B5076BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB017A8-EF27-4FDA-B611-A0743B5076BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

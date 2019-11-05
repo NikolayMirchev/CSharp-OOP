@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using _02.GraphicEditor.Models.Interfaces;
 
 namespace _02.GraphicEditor.Core
 {
-    class GraphicEditor
+    public class GraphicEditor
     {
+        public void DrawShape(IShape shape)
+        {
+            shape.Draw();
+        }
     }
 }

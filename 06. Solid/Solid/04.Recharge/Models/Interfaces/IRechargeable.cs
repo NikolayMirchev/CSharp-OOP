@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _04.Recharge.Models.Interfaces
+﻿namespace _04.Recharge.Models.Interfaces
 {
-    interface IRechargeable
+    public interface IRechargeable
     {
+        void Recharge();
     }
 }
